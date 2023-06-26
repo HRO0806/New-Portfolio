@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route, Outlet} from 'react-router-dom';
+
+const background = {
+  backgroundColor: 'lightgrey',
+  width: '100%',
+  maxWidth: 'inherit',
+  minHeight: '100vh',
+  backgroundPosition: 'absolute'
+};
 
 function App() {
+
+  const Layout = () => {
+    return(
+      <>
+        <Header />
+        <Outlet />
+        <Footer />
+      </>
+    )
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={background}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route path="/" element={<About />}/>
+              <Route path="/skills" element={<Skills />}/>
+              <Route path="/portfolio" element={<Portfolio />}/>
+              <Route path="/contact" element={<Contact />}/>
+              <Route path="/resume" element={<Resume />}/>
+            </Route>  
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }
