@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route, Outlet} from 'react-router-dom';
 
 const background = {
-  backgroundColor: 'lightgrey',
+  backgroundColor: '#EEA47F',
   width: '100%',
   maxWidth: 'inherit',
   minHeight: '100vh',
