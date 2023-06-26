@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.e50ea0e2.css",
+    "main.js": "/new-portfolio/static/js/main.ff7df4b9.js",
+    "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
+    "static/media/self-portrait.jpg": "/new-portfolio/static/media/self-portrait.491b5288bba75374cc24.jpg",
+    "static/media/my-resume.pdf": "/new-portfolio/static/media/my-resume.9df18a97c9d91c046863.pdf",
+    "static/media/regex.png": "/new-portfolio/static/media/regex.beb960af8f180a51b450.png",
+    "static/media/coding.png": "/new-portfolio/static/media/coding.b5dc996a95ac79fcd66a.png",
+    "static/media/social.jpg": "/new-portfolio/static/media/social.ea9bd40b77af38e8b9ef.jpg",
+    "static/media/text-speach.jpg": "/new-portfolio/static/media/text-speach.afbf7aa6fa79012948c3.jpg",
+    "index.html": "/new-portfolio/index.html",
+    "main.e50ea0e2.css.map": "/new-portfolio/static/css/main.e50ea0e2.css.map",
+    "main.ff7df4b9.js.map": "/new-portfolio/static/js/main.ff7df4b9.js.map",
+    "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e50ea0e2.css",
+    "static/js/main.ff7df4b9.js"
+  ]
+}
