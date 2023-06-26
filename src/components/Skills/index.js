@@ -3,8 +3,15 @@ import './Skills.css';
 
 function Skills() {
   return(
-    <div label="skills">
-      <p>I am the Skills page</p>
+    <div label="portfolio" className="portfolio">
+      <div className={'skills-title-container'}>
+        <h2 className={'skills-title'}>Skills</h2>
+      </div>
+      <div className={'container-container'}>
+        <div className={'container-skills'}>
+          <p className={'skills'}>HTML, CSS, SASS, JavaScript, React, Dart, Flutter, MySql, MongoDB, Node.js, Regex</p>
+        </div>
+      </div>
     </div>
   )
 }

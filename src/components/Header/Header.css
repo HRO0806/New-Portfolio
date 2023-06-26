@@ -1,5 +1,5 @@
 .header {
-  background-color: #0492C2;
+  background-color: #00539C;
   width: 100%;
   max-width: inherit;
   height: 80px;
@@ -21,6 +21,7 @@ h1 {
   list-style: none;
   margin-right: 40px;
   margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 #animate-one:hover {
@@ -66,11 +67,11 @@ h1 {
 .nav-item{
   color: #cacaca;
   text-decoration: none;
-  color: #131518;
+  color: #FFFFFF;
 }
 
 .nav-item:hover{
-  color: #131518;
+  color: #FFFFFF;
   margin-right: 10px;
   margin-left: 10px;
 }
