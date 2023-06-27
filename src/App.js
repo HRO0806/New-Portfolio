@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route, Outlet} from 'react-router-dom';
+import { HashRouter, Routes, Route, Outlet} from 'react-router-dom';
 
 const background = {
   backgroundColor: '#EEA47F',
@@ -29,7 +29,7 @@ function App() {
   }
   return (
     <div style={background}>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route path="/" element={<About />}/>
@@ -39,7 +39,7 @@ function App() {
               <Route path="/resume" element={<Resume />}/>
             </Route>  
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </div>
   );
 }
