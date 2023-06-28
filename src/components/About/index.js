@@ -12,7 +12,7 @@ function About () {
           <div className={Card} style={{marginTop: '45px'}}>
             <h2 className={'bio-title'}>Bio</h2>
             <p className={'bio'}>
-            I am a web developer who is passionate about building sharp and polished 
+            My name is Henry Olson, I am a web developer from Minnesota who is passionate about building sharp and polished 
             user interfaces. I have a deep interest in web development, as I am naturally 
             curious. I have been trained to use tools such as HTML, CSS, JavaScript, 
             Bootstrap, Bulma, Node.js, express.js, REACT, and HandleBars. I have recently 
