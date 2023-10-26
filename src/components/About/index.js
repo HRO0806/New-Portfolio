@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Spi from '../../images/self-portrait.jpg';
+import Spi from '../../images/self-portrait.jpeg';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
