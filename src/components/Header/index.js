@@ -22,6 +22,9 @@ function Header() {
         <li id="animate-five">
           <Link to="/resume" className="nav-item">Resume</Link>
         </li>
+        <li id="animate-six">
+          <Link to="/matching" className="nav-item">Matching</Link>
+        </li>
       </ul>
     </div>
   );

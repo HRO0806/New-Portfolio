@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Matching from './components/Matching';
 import Footer from './components/Footer';
 import { HashRouter, Routes, Route, Outlet} from 'react-router-dom';
 
@@ -37,6 +38,7 @@ function App() {
               <Route path="/portfolio" element={<Portfolio />}/>
               <Route path="/contact" element={<Contact />}/>
               <Route path="/resume" element={<Resume />}/>
+              <Route path="/matching" element={<Matching />}/>
             </Route>  
           </Routes>
         </HashRouter>
